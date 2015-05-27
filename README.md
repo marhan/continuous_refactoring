@@ -3,6 +3,10 @@ Code for the continuous refactoring CodingDojo
 
 Inspired by the book Refactoring to Patterns by Joshua Kerievsky
 
+# Clean and test the project
+
+	mvn
+
 #Help for Eclipse users
 
 ## configure project for eclipse

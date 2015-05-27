@@ -4,6 +4,9 @@ import static org.hamcrest.Matchers.hasItemInArray;
 import static org.hamcrest.Matchers.not;
 import static org.junit.Assert.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import org.junit.Before;
 import org.junit.Test;
 
@@ -35,6 +38,31 @@ public class ListImplTest {
 		
 		assertThat(subject.getElements(), not(hasItemInArray(element)));
 		
+	}
+	
+	@Test
+	public void whenAddTwentyItemsThanAllAreFound() {
+		
+		List<Object> elements = createElements(20); 
+		
+		for (Object element : elements) {
+			subject.add(element);
+		}
+		
+		for (Object element : elements) {
+			assertThat(subject.getElements(), hasItemInArray(element));
+		}
+		
+	}
+
+	private List<Object> createElements(int quantity) {
+		List<Object> arrayList = new ArrayList<Object>();
+		
+		for(int i = 1 ; i <= quantity; i++) {
+			arrayList.add(new String("Test Element "));
+		}
+		
+		return arrayList;
 	}
 	
 

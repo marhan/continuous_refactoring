@@ -1,7 +1,8 @@
 # Continuous Refactoring
-Code for the continuous refactoring CodingDojo
 
-Inspired by the book Refactoring to Patterns by Joshua Kerievsky
+Code for the continuous refactoring CodingDojo.
+
+Inspired by the book Refactoring to Patterns by Joshua Kerievsky.
 
 ## Clean and test the project
 
@@ -9,11 +10,11 @@ Inspired by the book Refactoring to Patterns by Joshua Kerievsky
 
 ## Help for Eclipse users
 
-### configure project for eclipse
+### Configure project for eclipse
 
 	mvn eclipse:eclipse
 
-### Static Imports
+### Static imports
 
 	Window > Preferences > Java > Editor > Content Assist > Favorites
 

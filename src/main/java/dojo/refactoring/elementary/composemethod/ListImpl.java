@@ -6,16 +6,8 @@ public class ListImpl {
 	private int size;
 	private Object[] elements = new Object[0];
 
-	public boolean isReadOnly() {
-		return readOnly;
-	}
-
-	public void setReadOnly(boolean readOnly) {
-		this.readOnly = readOnly;
-	}
-
 	public void add(Object element) {
-
+		
 		if (!readOnly) {
 			
 			int newSize = size + 1;
@@ -27,11 +19,19 @@ public class ListImpl {
 				}
 				elements = newElements;
 			}
-
+			
 			elements[size++] = element;
-
+			
 		}
+		
+	}
+	
+	public boolean isReadOnly() {
+		return readOnly;
+	}
 
+	public void setReadOnly(boolean readOnly) {
+		this.readOnly = readOnly;
 	}
 
 	public Object[] getElements() {

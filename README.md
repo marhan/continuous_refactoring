@@ -11,7 +11,7 @@ Inspired by the book Refactoring to Patterns by Joshua Kerievsky
 
 ## Static Imports
 
-	Window » Preferences > Java > Editor > Content Assist > Favorites
+	Window > Preferences > Java > Editor > Content Assist > Favorites
 
 I have the following entries (Use "New Type" and omit the .*)
 

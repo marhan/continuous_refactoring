@@ -3,17 +3,17 @@ Code for the continuous refactoring CodingDojo
 
 Inspired by the book Refactoring to Patterns by Joshua Kerievsky
 
-# Clean and test the project
+## Clean and test the project
 
 	mvn
 
-#Help for Eclipse users
+## Help for Eclipse users
 
-## configure project for eclipse
+### configure project for eclipse
 
 	mvn eclipse:eclipse
 
-## Static Imports
+### Static Imports
 
 	Window > Preferences > Java > Editor > Content Assist > Favorites
 

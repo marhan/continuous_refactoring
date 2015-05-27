@@ -1,4 +1,4 @@
-package dojo.refactoring.elementary.composemethod;
+package dojo.refactoring.longmethod.composemethod;
 
 import static org.hamcrest.Matchers.hasItemInArray;
 import static org.hamcrest.Matchers.not;
@@ -9,6 +9,8 @@ import java.util.List;
 
 import org.junit.Before;
 import org.junit.Test;
+
+import dojo.refactoring.longmethod.composemethod.ListImpl;
 
 public class ListImplTest {
 

@@ -1,7 +1,11 @@
-package dojo.refactoring.elementary.composemethod;
+package dojo.refactoring.longmethod.composemethod;
 
 /*
  * Chapter 7.1 in the book
+ * 
+ * Smell: Long method
+ * Refactoring: Compose Method
+ * 
  */
 public class ListImpl {
 

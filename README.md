@@ -7,16 +7,17 @@ Inspired by the book Refactoring to Patterns by Joshua Kerievsky
 
 ## configure project for eclipse
 
- mvn eclipse:eclipse
+	mvn eclipse:eclipse
 
 ## Static Imports
 
-Window » Preferences » Java » Editor » Content Assist » Favorites
-I have the following entries (Use "New Type" and omit the .*):
+	Window » Preferences > Java > Editor > Content Assist > Favorites
 
- org.hamcrest.Matchers.*
- org.hamcrest.CoreMatchers.*
- org.junit.*
- org.junit.Assert.*
- org.junit.Assume.*
- org.junit.matchers.JUnitMatchers.*
+I have the following entries (Use "New Type" and omit the .*)
+
+	org.hamcrest.Matchers.*
+	org.hamcrest.CoreMatchers.*
+	org.junit.*
+	org.junit.Assert.*
+	org.junit.Assume.*
+	org.junit.matchers.JUnitMatchers.*

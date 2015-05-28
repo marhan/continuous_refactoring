@@ -26,7 +26,7 @@ public class ListImpl {
 			elements[size++] = element;
 		}
 	}
-	
+
 	public boolean isReadOnly() {
 		return readOnly;
 	}

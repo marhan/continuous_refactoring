@@ -14,7 +14,6 @@ public class ListImpl {
 	private Object[] elements = new Object[0];
 
 	public void add(Object element) {
-		
 		if (!readOnly) {
 			int newSize = size + 1;
 			if (newSize > elements.length) {

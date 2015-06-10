@@ -1,4 +1,4 @@
-package dojo.refactoring.longmethod.composemethod;
+package refactoring.longmethod.composemethod;
 
 /*
  * Chapter 7.1 in the book
